@@ -11,6 +11,8 @@
 
   </div>
 
+  <div class="hr"></div>
+
   <div class="meta">
 
   <div class="categories">
@@ -24,8 +26,9 @@
 
   </div>
 </article>
+<div class="hr"></div>
 
-<div id="comments">
+<div class="comments">
   <?php comments_template()?>
 </div>
 

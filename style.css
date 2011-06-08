@@ -242,7 +242,7 @@ caption {
   opacity:0.8px;
 }
 
-.post p, .post ul, #comments {
+.post p, .post ul, .comments {
   text-align:justify;
   font-family:helvetica, verdana, arial, sans-serif;
   text-justify:newspaper;
@@ -343,17 +343,21 @@ caption {
   text-decoration:none;
 }
 
+.post pre{
+  overflow-y:auto;
+}
+
 /*
  * Comments
  */
 
-#comments ol{
+.comments ol{
   padding:0;
   margin:0;
   list-style-type:none;
 }
 
-#comments ol li{
+.comments ol li{
   list-style-type:none;
 }
 
