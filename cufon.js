@@ -23,4 +23,3 @@ Cufon.registerFont({"w":81,"face":{"font-family":"Goudy Bookletter 1911","font-w
 
 Cufon.replace('h1');
 Cufon.replace('h2');
-
