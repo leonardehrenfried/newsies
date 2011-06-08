@@ -361,6 +361,14 @@ caption {
   list-style-type:none;
 }
 
+.comment{
+  margin: 0 0 1.5em;
+}
+
+.comments #respond textarea{
+  width: 100%;
+}
+
 .hr {
   background-image:url('images/hrule.png');
   height:29px;
