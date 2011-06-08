@@ -242,7 +242,7 @@ caption {
   opacity:0.8px;
 }
 
-.post p {
+.post p, .post ul, #comments {
   text-align:justify;
   font-family:helvetica, verdana, arial, sans-serif;
   text-justify:newspaper;
@@ -343,8 +343,22 @@ caption {
   text-decoration:none;
 }
 
+/*
+ * Comments
+ */
+
+#comments ol{
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
+
+#comments ol li{
+  list-style-type:none;
+}
+
 .hr {
-  background-image:url('http://static.tumblr.com/fw3zutj/n9il22f19/hrule.gif');
+  background-image:url('images/hrule.png');
   height:29px;
   width:500px;
   background-repeat:no-repeat;

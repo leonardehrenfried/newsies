@@ -21,10 +21,14 @@
     <?php the_tags("","",""); ?>
   </div>
 
-  <?php comments_template()?>
 
   </div>
 </article>
+
+<div id="comments">
+  <?php comments_template()?>
+</div>
+
 <?php endwhile; ?>
 		<div class="navigation">
 			<div class="alignleft"><?php previous_post_link('&laquo; %link') ?></div>
