@@ -309,7 +309,7 @@ caption {
   background-position:right center;
 }
 
-.post .meta .tags ul {
+.post .meta .tags {
   border:0;
   outline:0;
   width:400px;
@@ -320,7 +320,7 @@ caption {
   padding:0 0 0 20px;
 }
 
-.post .meta .tags ul li {
+.post .meta .tags a {
   list-style-type:none;
   margin-left:0;
   white-space:nowrap;
@@ -330,15 +330,15 @@ caption {
   padding-right:4px;
 }
 
-.post .meta .tags ul li.first {
+.post .meta .tags a.first {
   padding-left:0;
 }
 
-.post .meta .tags ul li.last {
+.post .meta .tags a.last {
   padding-right:0;
 }
 
-.post .meta .tags ul li a {
+.post .meta .tags {
   color:#aaa;
   text-decoration:none;
 }

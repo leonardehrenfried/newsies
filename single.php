@@ -11,8 +11,19 @@
 
   </div>
 
-  <p class="meta">Filed under: <?php the_category(', '); ?><?php the_tags('<br />Tags: '); ?></p>
+  <div class="meta">
+
+  <div class="categories">
+    Filed under: <?php the_category(', '); ?></p>
+  </div>
+
+  <div class="tags">
+    <?php the_tags("","",""); ?>
+  </div>
+
   <?php comments_template()?>
+
+  </div>
 </article>
 <?php endwhile; ?>
 		<div class="navigation">
