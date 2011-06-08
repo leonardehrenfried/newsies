@@ -1,0 +1,11 @@
+#masthead, #footer, #sidebar, .navigation, #respond {
+display:none;
+}
+div#main, div#container {
+width:auto!important;
+float:none!important;
+color:#000!important;
+}
+a {
+color:#000!important;
+}
