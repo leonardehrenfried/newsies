@@ -207,17 +207,33 @@ caption {
 }
 nav{
   margin: 0 0 1.5em;
+  float:left;
+  width:100%;
+  overflow:hidden;
+  position:relative;
 }
 
 nav ul{
   margin:0;
   padding:0;
+  clear:left;
+  float:left;
+  list-style:none;
+  position:relative;
+  left:50%;
+  text-align:center;
 }
 
 nav ul li{
   list-style-type:none;
   display: inline;
   padding: 0 0.5em;
+  display:block;
+  float:left;
+  list-style:none;
+  margin:0;
+  position:relative;
+  right:50%;
 }
 
 .title {
