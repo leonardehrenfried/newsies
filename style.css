@@ -124,8 +124,12 @@ p img.right {
   padding:0;
 }
 
-a {
+a, a:visited{
+  color: #2A2A2A;
   text-decoration:underline;
+}
+
+.post a, .comments a{
   color:#36c;
 }
 
@@ -205,6 +209,7 @@ caption {
   padding-top:50px;
   margin:0 auto;
 }
+
 nav{
   margin: 0 0 1.5em;
   float:left;
@@ -443,6 +448,13 @@ nav ul li{
   -webkit-border-radius:4px;
   padding:8px;
 }
+
+.aligncenter, div.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 #footer {
   padding-top:15px;
