@@ -20,22 +20,26 @@
 
 </head>
 <body <?php body_class(); ?>>
-
-<div id="frame">
-
-<div class="title">
-  <h1>
-    <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-  </h1>
   
-  <ul id="nav">
-    <?php wp_list_pages('title_li=&depth=1');?>
-    <li><a href="<?php bloginfo('rss2_url'); ?>">Feed</a></li>
-  </ul>
   
-  <p class="description"><?php bloginfo('description'); ?></p>
-  <div class="clear"></div>
-</div>
+  <div id="frame">
+  
+  <nav>
+    <ul>
+      <?php wp_list_pages('title_li=&depth=1');?>
+      <li><a href="<?php bloginfo('rss2_url'); ?>">Feed</a></li>
+    </ul>
+  </nav>
+  
+
+  <div class="title">
+    <h1>
+      <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+    </h1>
+  
+    <p class="description"><?php bloginfo('description'); ?></p>
+    <div class="clear"></div>
+  </div>
 
 <div id="main">
   <div class="hr"></div>

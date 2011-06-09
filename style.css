@@ -205,6 +205,20 @@ caption {
   padding-top:50px;
   margin:0 auto;
 }
+nav{
+  margin: 0 0 1.5em;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+}
+
+nav ul li{
+  list-style-type:none;
+  display: inline;
+  padding: 0 0.5em;
+}
 
 .title {
   padding-bottom:18px;
