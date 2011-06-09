@@ -242,7 +242,7 @@ caption {
   opacity:0.8px;
 }
 
-.post p, .post ul, .comments {
+.post p, .post ul, .comments ol {
   text-align:justify;
   font-family:helvetica, verdana, arial, sans-serif;
   text-justify:newspaper;
@@ -259,7 +259,8 @@ caption {
   text-align:left;
 }
 
-.post .date {
+.post .date,  
+.comments .commentlist .commentmetadata{
   font-weight:700;
   font-family:helvetica, verdana, arial, sans-serif;
   text-transform:uppercase;
@@ -368,6 +369,7 @@ caption {
 .comments #respond textarea{
   width: 100%;
 }
+
 
 .hr {
   background-image:url('images/hrule.png');

@@ -11,8 +11,6 @@
 
   </div>
 
-  <div class="hr"></div>
-
   <div class="meta">
 
   <div class="categories">
