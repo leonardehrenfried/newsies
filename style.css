@@ -204,6 +204,14 @@ caption {
   color:#111;
 }
 
+.alignright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+}
+
 #frame {
   width:500px;
   padding-top:50px;
@@ -401,8 +409,8 @@ nav ul li a:visited {
   list-style-type:none;
 }
 
-.comment{
-  margin: 0 0 2em;
+.comment-body{
+  margin: 0 0 3em;
 }
 
 .comments #respond textarea{
@@ -467,8 +475,12 @@ nav ul li a:visited {
   margin-right: auto;
 }
 
+.navigation{
+  clear:both;
+}
 
-#footer {
+footer {
+  clear:both;
   padding-top:15px;
   padding-bottom:30px;
   font-weight:700;
@@ -480,7 +492,7 @@ nav ul li a:visited {
   margin-bottom:10px;
 }
 
-#footer a {
+footer a:link, footer a:visited {
   color:#999;
   text-decoration:none;
   border-bottom:1px dotted #ccc;
