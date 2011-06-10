@@ -129,7 +129,7 @@ a:link {
   text-decoration:underline;
 }
 
-.post a, .comments a{
+.post a, .comments p a{
   color:#36c;
 }
 
@@ -402,13 +402,21 @@ nav ul li a:visited {
 }
 
 .comment{
-  margin: 0 0 1.5em;
+  margin: 0 0 2em;
 }
 
 .comments #respond textarea{
   width: 100%;
 }
 
+.comments .commentlist .comment-author{
+  font-family:'Georgia','Times','Times New Roman',serif;
+}
+
+.comments .comment-meta a{
+  text-decoration:none;
+  color:#999;
+}
 
 .hr {
   background-image:url('images/hrule.png');
