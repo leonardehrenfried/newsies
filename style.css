@@ -43,7 +43,7 @@ ol,ul {
 table {
   border-collapse:separate;
   border-spacing:0;
-  vertical-align:middle;
+  vertical-align:middle;<D-h>
   margin-bottom:1.4em;
   width:100%;
 }
@@ -395,6 +395,11 @@ nav ul li a:visited {
   overflow-y:auto;
 }
 
+.wp-caption p{
+  font-family:'Georgia','Times','Times New Roman',serif;
+  text-align: center;
+}
+
 /*
  * Comments
  */
@@ -417,7 +422,8 @@ nav ul li a:visited {
   width: 100%;
 }
 
-.comments .commentlist .comment-author{
+.comments .commentlist .comment-author,
+.wp-caption p{
   font-family:'Georgia','Times','Times New Roman',serif;
 }
 
