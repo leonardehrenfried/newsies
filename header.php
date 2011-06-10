@@ -1,7 +1,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 
-<head profile="http://gmpg.org/xfn/11">
+<head>
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
 <title><?php wp_title('&#8211;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
