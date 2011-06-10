@@ -38,7 +38,6 @@
     </h1>
   
     <p class="description"><?php bloginfo('description'); ?></p>
-    <div class="clear"></div>
   </div>
 
 <div id="main">

@@ -124,7 +124,7 @@ p img.right {
   padding:0;
 }
 
-a, a:visited{
+a:link {
   color: #2A2A2A;
   text-decoration:underline;
 }
@@ -229,7 +229,7 @@ nav ul{
   text-align:center;
 }
 
-nav ul li{
+nav ul li {
   list-style-type:none;
   display: inline;
   padding: 0 0.5em;
@@ -241,6 +241,10 @@ nav ul li{
   right:50%;
 }
 
+nav ul li a:visited {
+  color:#2A2A2A;
+  text-decoration:none;
+}
 .title {
   padding-bottom:18px;
 }
