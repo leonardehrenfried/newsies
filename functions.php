@@ -1,5 +1,5 @@
 <?php
-$content_width = 580; // Width of div#main, for embedding media
+$content_width = 500; // Width of div#main, for embedding media
 
 // Prevent use of unsupported widgets
 add_action('widgets_init','my_unregister_widgets');
@@ -19,8 +19,8 @@ function widget_opy_search() {
 <?php get_search_form()?>
 <?php
 }
-if ( function_exists('register_sidebar_widget') )
-    register_sidebar_widget(__('Search'), 'widget_opy_search');
+if ( function_exists('wp_register_sidebar_widget') )
+    wp_register_sidebar_widget("widget_opy_search", __('Search'), 'widget_opy_search');
 
 // See http://www.ericmmartin.com/conditional-pagepost-navigation-links-in-wordpress-redux/
 function show_posts_nav() {
@@ -28,4 +28,5 @@ function show_posts_nav() {
 	return ($wp_query->max_num_pages > 1);
 }
 
+add_theme_support('automatic-feed-links');
 ?>

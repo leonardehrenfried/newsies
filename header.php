@@ -9,14 +9,16 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime(get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
 <link rel="stylesheet" 
     href="<?php bloginfo('stylesheet_directory'); echo '/print.css?'.filemtime(get_stylesheet_directory().'/print.css'); ?>" type="text/css" media="print" />
-<?php wp_enqueue_script("jquery"); ?>
-
+<?php 
+      wp_enqueue_script("jquery"); 
+      if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
+?>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 <link rel="alternate" href="<?php bloginfo('rss2_url'); ?>" type="application/rss+xml" />
 
 <?php wp_head(); ?>
 
-<script type="text/javascript" src="<?php bloginfo("template_url"); ?>/cufon.js"></script>
+<script type="text/javascript" src="<?php get_template_directory_uri();?>/cufon.js"></script>
 
 </head>
 <body <?php body_class(); ?>>
@@ -34,7 +36,7 @@
 
   <div class="title">
     <h1>
-      <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+      <a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a>
     </h1>
   
     <p class="description"><?php bloginfo('description'); ?></p>

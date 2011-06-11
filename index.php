@@ -10,7 +10,7 @@ if ( is_date() ) { ?><p id="archive-what">You are browsing the archive for <?php
 
 while ( have_posts() ) : the_post(); ?>
 
-<article class="post">
+<article <?php post_class('post');?>>
 <h2 class="entry-title"><a href="<?php the_permalink()?>"><?php the_title()?></a></h2>
 
 <?php if ( is_new_day() ) { ?>

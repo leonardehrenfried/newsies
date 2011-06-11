@@ -5,8 +5,9 @@ Description: Port of Alasdair Monk's Tumbler theme
 Version: 1.0
 Author: Alistair Monk, Leonard Ehrenfried
 Author URI: http://www.alasdairmonk.com/ 
-Tags: white, minimal 
-License: http://www.gnu.org/licenses/gpl.html
+Tags: white, one-column, fixed-width, threaded-comments 
+License: GPL 2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 */
 
 
@@ -395,9 +396,13 @@ nav ul li a:visited {
   overflow-y:auto;
 }
 
-.wp-caption p{
+.wp-caption p.wp-caption-text,
+.gallery-caption {
   font-family:'Georgia','Times','Times New Roman',serif;
   text-align: center;
+}
+
+.sticky{
 }
 
 /*
@@ -430,6 +435,10 @@ nav ul li a:visited {
 .comments .comment-meta a{
   text-decoration:none;
   color:#999;
+}
+
+.comments .bypostauthor{
+
 }
 
 .hr {
