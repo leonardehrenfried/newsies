@@ -423,6 +423,10 @@ nav ul li a:visited {
   margin: 0 0 3em;
 }
 
+.comments #respond{
+  position:relative;
+}
+
 .comments #respond textarea{
   width: 100%;
 }
@@ -439,6 +443,13 @@ nav ul li a:visited {
 
 .comments .bypostauthor{
 
+}
+
+.comments form#commentform input#author,
+.comments form#commentform input#url,
+.comments form#commentform input#email{
+  position:absolute;
+  left:60px;
 }
 
 .hr {
