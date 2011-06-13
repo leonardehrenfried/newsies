@@ -49,8 +49,6 @@
 
 <?php if ( comments_open() ) : ?>
 
-<div id="respond">
-  <?php comment_form(); ?>
-</div>
+<?php comment_form(); ?>
 
 <?php endif; // if you delete this the sky will fall on your head ?>
