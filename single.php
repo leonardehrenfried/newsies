@@ -14,7 +14,7 @@
   <div class="meta">
 
   <div class="categories">
-    Filed under: <?php the_category(', '); ?></p>
+    Filed under: <?php the_category(', '); ?>
   </div>
 
   <div class="tags">
