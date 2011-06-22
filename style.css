@@ -290,7 +290,7 @@ nav ul li a:visited {
   opacity:0.8px;
 }
 
-.post p, .post ul, .comments ol {
+.post p, .post ul, .post ol, .comments ol {
   text-align:justify;
   font-family:helvetica, verdana, arial, sans-serif;
   text-justify:newspaper;
