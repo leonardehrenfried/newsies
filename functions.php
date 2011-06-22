@@ -29,4 +29,10 @@ function show_posts_nav() {
 }
 
 add_theme_support('automatic-feed-links');
+
+// these <link> elements are not valid in HTML5
+remove_action( 'wp_head', 'index_rel_link' ); // index link
+remove_action( 'wp_head', 'parent_post_rel_link', 10, 0 ); // prev link
+remove_action( 'wp_head', 'start_post_rel_link', 10, 0 ); // start link
+
 ?>
