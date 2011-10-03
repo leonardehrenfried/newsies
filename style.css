@@ -431,6 +431,10 @@ nav ul li a:visited {
   width: 100%;
 }
 
+.comments #respond .form-allowed-tags{
+   display:none;
+}
+
 .comments .commentlist .comment-author,
 .wp-caption p{
   font-family:'Georgia','Times','Times New Roman',serif;

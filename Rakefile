@@ -7,7 +7,7 @@ task :deploy do
     system("rsync -r --exclude=.git* . #{ssh_user}:#{remote_root}")
 end
 
-desc "deploys the theme"
+desc "zips up the theme"
 task :zip do
     puts "*** Creating zip file ***"
     system("git archive --format zip --output `pwd`/newsies.zip master")
