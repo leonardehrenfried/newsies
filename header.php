@@ -18,7 +18,7 @@
 
 <?php wp_head(); ?>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri();?>/cufon.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
 
 </head>
 <body <?php body_class(); ?>>

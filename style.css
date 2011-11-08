@@ -73,6 +73,7 @@ h1 {
   font-size:3em;
   line-height:1;
   margin-bottom:0.5em;
+  font-family: 'Goudy Bookletter 1911', serif;
 }
 
 h2 {
@@ -80,6 +81,7 @@ h2 {
   color:#222;
   font-size:2em;
   margin-bottom:0.75em;
+  font-family: 'Goudy Bookletter 1911', serif;
 }
 
 h3 {
@@ -278,7 +280,6 @@ nav ul li a:visited {
   text-align:center;
   font-size:26px;
   margin-bottom:6px;
-  font-style:italic;
 }
 
 .post h2 a {
