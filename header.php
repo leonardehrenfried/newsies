@@ -9,8 +9,9 @@
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); echo '?' . filemtime(get_stylesheet_directory() . '/style.css'); ?>" type="text/css" />
 <link rel="stylesheet"
     href="<?php bloginfo('stylesheet_directory'); echo '/print.css?'.filemtime(get_stylesheet_directory().'/print.css'); ?>" type="text/css" media="print" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
 <?php
-      wp_enqueue_script("jquery");
       if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
 ?>
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
