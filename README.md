@@ -5,4 +5,5 @@ A port of Alasdair Monk's Tumblr theme to Wordpress.
 * Live demo: http://lenni.info
 * Tumblr theme demo: http://newsiesdemo.tumblr.com/
 
-The theme is submitted to wordpress.org, but as of now hasn't been approved yet.
+I used to use this on my personal blog but have since moved away from
+Wordpress in favour of Jekyll.
